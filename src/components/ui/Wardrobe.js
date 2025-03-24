@@ -10,7 +10,7 @@ import Image from 'next/image';
 export default function Wardrobe() {
   return (
     <div className="flex md:flex-row flex-col justify-between items-center w-full gap-20 md:gap-14 lg:gap-48">
-      <div className="flex flex-col justify-start items-start md:w-1/2 w-full gap-[44px]">
+      <div className="flex flex-col justify-start items-start md:w-1/2 w-full md:gap-[44px] gap-[35px]">
         <h2 className="font-Euclid font-medium md:text-[35px] -mb-7 text-[#101010] lg:text-[48px] text-[24px] w-full md:leading-[56px] leading-[32px] md:w-[544px]">
           Wardrobe Management
         </h2>
@@ -20,7 +20,7 @@ export default function Wardrobe() {
           anywhere.
         </p>
         <div className="flex flex-col items-start justify-start md:gap-[16px] gap-[9.12px] md:w-[418px] w-[238px]">
-          <div className="border border-gray-400 md:w-[280px] lg:w-[418px] w-[238px] md:rounded-[16px] rounded-[9px] md:py-6 py-2">
+          <div className="border border-[#E4DBD0] md:w-[280px] lg:w-[418px] w-[238px] md:rounded-[16px] rounded-[9px] md:py-6 py-2">
             <div className="flex flex-row justify-between items-center md:px-3 px-2 md:-mt-2">
               <p className="font-Poppins font-medium md:text-[9px] lg:text-[11px] text-[6px]">
                 Condition
@@ -31,7 +31,7 @@ export default function Wardrobe() {
               </p>
             </div>
             <div className="flex flex-row items-center justify-start md:gap-[10.63px] gap-[4px] md:mt-5 mt-2 md:px-3 px-2">
-              <span className="font-Poppins font-medium md:text-[8px] lg:text-[11px] text-[6px] custom-red-color custom-red-border md:h-[30.18px] h-[18.08px] text-center md:rounded-[14.26px] rounded-[8.13px] md:w-[30px] lg:w-[45px] w-[26.12px] flex items-center justify-center">
+              <span className="font-Poppins font-medium md:text-[8px] lg:text-[11px] text-[6px] custom-red-color custom-green-border md:h-[30.18px] h-[18.08px] text-center md:rounded-[14.26px] rounded-[8.13px] md:w-[30px] lg:w-[45px] w-[26.12px] flex items-center justify-center">
                 New
               </span>
               <span className="font-Poppins font-medium md:text-[8px] lg:text-[11px] text-[6px] md:w-[50px] lg:w-[67px] w-[39px] md:rounded-[14.26px] rounded-[8.13px] md:h-[30.18px] h-[18.08px] border text-center border-gray-200 flex items-center justify-center">
@@ -45,7 +45,7 @@ export default function Wardrobe() {
               </span>
             </div>
           </div>
-          <div className="border border-gray-400 md:w-[280px] lg:w-[418px] w-[238px] md:rounded-[16px] rounded-[9.12px] md:py-6 py-2">
+          <div className="border border-[#E4DBD0] md:w-[280px] lg:w-[418px] w-[238px] md:rounded-[16px] rounded-[9.12px] md:py-6 py-2">
             <div className="flex flex-row justify-between items-center md:px-3 px-2">
               <p className="font-Poppins font-medium md:text-[9px] lg:text-[11px] text-[7px]">
                 Season
@@ -99,7 +99,7 @@ export default function Wardrobe() {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/2 md:w-[70%] mt-[36px] w-full animate-bounce-slow">
+      <div className="lg:w-1/2 md:w-[70%] py-[36px] w-full animate-bounce-slow">
         <Image src={iphone15} alt="iphone-image" />
       </div>
     </div>

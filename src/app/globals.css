@@ -60,7 +60,7 @@
 }
 
 .custom-red-color{
-  color: var(--custom-red);
+  color: var(--custom-green);
 }
 
 @theme inline {
@@ -271,6 +271,12 @@ body {
     max-width: 270px;
   }
 } */
+
+@media (max-width: 375px){
+  .image{
+    padding-inline: 45px
+  }
+}
 
 
 

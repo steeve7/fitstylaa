@@ -9,7 +9,7 @@ import Image from 'next/image';
 export default function Download() {
   return (
     <motion.div
-      className="relative flex flex-col justify-center items-center w-full py-24 overflow-hidden"
+      className="relative flex flex-col justify-center items-center w-full md:py-24 py-[64px] overflow-hidden"
       initial={{ opacity: 0, y: 50 }} // Start invisible & slightly below
       whileInView={{ opacity: 1, y: 0 }} // Fade in and move up
       transition={{ duration: 1.5, ease: "easeOut" }} // Slow & smooth
@@ -33,7 +33,7 @@ export default function Download() {
       </div>
       {/* Main content container */}
       <div className="relative flex flex-col md:flex-row 2xl:px-20 items-center justify-center mt-10 md:w-1/2 lg:w-3/4 w-full gap-6">
-        <div className="flex-1 lg:w-1/2 w-full 2xl:px-20 xl:px-3 md:px-2 px-[42px] lg:-mt-32 md:-mt-40">
+        <div className="flex-1 lg:w-1/2 w-full 2xl:px-20 xl:px-3 md:px-2 px-[55px] lg:-mt-32 md:-mt-40 image">
           <h2 className="font-Euclid font-medium text-[24px] md:text-[40px] lg:text-[60px] 2xl:text-[80px] leading-[32px] md:leading-[60px] lg:leading-[72px] 2xl:leading-[80px] md:w-[300px] lg:w-[490px] 2xl:w-[600px] w-full text-white">
             Smart styling with AI
           </h2>

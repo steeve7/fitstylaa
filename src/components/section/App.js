@@ -15,7 +15,7 @@ export default function App() {
       viewport={{ once: true, amount: 0.2 }} // Runs only once per session
       style={{ willChange: "opacity, transform" }}
     >
-      <div className="flex flex-col mt-[96px] justify-center items-center gap-[64px] px-3 md:px-0 -mb-8">
+      <div className="flex flex-col md:mt-[96px] mt-[64px] justify-center items-center md:gap-[64px] gap-[52px] px-[20px] md:px-0 -mb-8">
         <h2 className="font-Euclid font-medium text-[#101010] -mb-7 md:text-[40px] lg:text-[60px] md:leading-[72px] leading-[32px] text-[24px] text-center w-full">
           And there’s so much more waiting for You!
         </h2>

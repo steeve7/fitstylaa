@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 
 export default function Features() {
   return (
-    <div className="w-full py-[96px] flex flex-col justify-center items-center lg:px-12 xl:px-[120px] px-5 md:px-12 overflow-hidden">
+    <div className="w-full md:py-[96px] py-[64px] flex flex-col justify-center items-center lg:px-12 xl:px-[120px] px-5 md:px-12 overflow-hidden">
       <motion.h2
         className="font-medium md:text-[40px] text-[#101010] lg:text-[60px] text-center text-[24px] font-Euclid md:leading-[72px] leading-[32px]"
         initial={{ opacity: 0, y: 50 }} // Start invisible & slightly below

@@ -9,7 +9,7 @@ import Image from 'next/image';
 export default function Outfit() {
   return (
     <div className="w-full flex md:flex-row flex-col justify-between items-center gap-20 lg:gap-60 py-[96px]">
-      <div className="flex flex-col justify-start items-start md:order-2 order-1 md:w-1/2 w-full gap-[44px]">
+      <div className="flex flex-col justify-start items-start md:order-2 order-1 md:w-1/2 w-full md:gap-[44px] gap-[35px]">
         <h2 className="font-Euclid text-[#101010] -mb-7 font-medium md:text-[35px] lg:text-[48px] text-[24px] md:leading-[56px] leading-[32px] md:w-[544px] w-full">
           Outfit Planning
         </h2>
@@ -19,8 +19,8 @@ export default function Outfit() {
           dressed.
         </p>
         <div className=" md:w-[230px] lg:w-[343px] w-[238px] flex flex-col justify-start items-start md:gap-[16px] gap-[11px]">
-          <div className="flex flex-row items-center gap-4 border border-gray-300 md:rounded-lg rounded-[11px] md:w-[230px] lg:w-[343px] w-[238px] md:h-[96px] h-[70.46px]">
-            <span className="bg-gray-200 md:w-[70px] lg:w-[96px] md:py-1 py-2 w-[66px] md:h-[96px] h-[70.46px] rounded-bl-lg rounded-l-lg md:-ml-[1px]">
+          <div className="flex flex-row items-center gap-4 border border-[#E4DBD0] md:rounded-lg rounded-[11px] md:w-[230px] lg:w-[343px] w-[238px] md:h-[96px] h-[70.46px]">
+            <span className="bg-gray-200 md:w-[70px] lg:w-[96px] md:py-1 py-2 w-[66px] md:h-[96px] h-[70.46px] rounded-bl-lg rounded-l-lg -ml-[1px]">
               <Image
                 src={trousers}
                 alt="trouser-image"
@@ -46,8 +46,8 @@ export default function Outfit() {
               </p>
             </div>
           </div>
-          <div className="flex flex-row items-center gap-4 border border-gray-300 md:rounded-lg rounded-[11px] md:w-[230px] lg:w-[343px] w-[238px] md:h-[96px] h-[70.46px]">
-            <span className="bg-gray-200 rounded-bl-lg rounded-l-lg md:-ml-[1px] md:h-[96px] h-[70.46px] md:py-5 py-4 md:w-[70px] lg:w-[96px] w-[66px]">
+          <div className="flex flex-row items-center gap-4 border border-[#E4DBD0] md:rounded-lg rounded-[11px] md:w-[230px] lg:w-[343px] w-[238px] md:h-[96px] h-[70.46px]">
+            <span className="bg-gray-200 rounded-bl-lg rounded-l-lg -ml-[1px] md:h-[96px] h-[70.46px] md:py-5 py-4 md:w-[70px] lg:w-[96px] w-[66px]">
               <Image
                 src={shirt}
                 alt="shirt-image"
@@ -75,7 +75,7 @@ export default function Outfit() {
           </div>
         </div>
       </div>
-      <div className="md:w-1/2 w-full mt-[36px] md:order-1 order-2 animate-bounce-slow">
+      <div className="md:w-1/2 w-full py-[36px] md:order-1 order-2 animate-bounce-slow">
         <Image src={iphone16} alt="iphone_image" className="" />
       </div>
     </div>
