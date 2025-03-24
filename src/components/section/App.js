@@ -8,14 +8,14 @@ import Image from 'next/image';
 export default function App() {
   return (
     <motion.div
-      className="w-full py-[96px] overflow-hidden bg-[#fefbf4]"
+      className="w-full overflow-hidden bg-[#fefbf4]"
       initial={{ opacity: 0, y: 50 }} // Start invisible & slightly below
       whileInView={{ opacity: 1, y: 0 }} // Fade in and move up
       transition={{ duration: 1.5, ease: "easeOut" }} // Slow & smooth
       viewport={{ once: true, amount: 0.2 }} // Runs only once per session
       style={{ willChange: "opacity, transform" }}
     >
-      <div className="flex flex-col justify-center items-center gap-[64px] px-3 md:px-0">
+      <div className="flex flex-col mt-[96px] justify-center items-center gap-[64px] px-3 md:px-0 -mb-8">
         <h2 className="font-Euclid font-medium text-[#101010] -mb-7 md:text-[40px] lg:text-[60px] md:leading-[72px] leading-[32px] text-[24px] text-center w-full">
           And there’s so much more waiting for You!
         </h2>
