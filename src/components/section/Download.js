@@ -3,7 +3,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import largeScreen from "@/components/assests/images/largescreen.svg";
 import mobile from "@/components/assests/images/mobile.svg";
-import smart from "@/components/assests/images/smart.svg";
+import smart from "@/components/assests/images/smart.png";
 import Image from 'next/image';
 
 export default function Download() {

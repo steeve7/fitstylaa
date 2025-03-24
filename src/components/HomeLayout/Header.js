@@ -4,7 +4,7 @@ import Button from '../ui/Button';
 import { motion } from "framer-motion";
 import Image from 'next/image';
 import logo from '@/components/assests/images/logo.svg'
-import hero from '@/components/assests/images/hero.svg'
+import hero from '@/components/assests/images/hero.png'
 
 export default function Header() {
   return (

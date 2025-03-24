@@ -2,7 +2,7 @@
 import React from 'react'
 import Button from '../ui/Button';
 import { motion } from 'framer-motion';
-import app from "@/components/assests/images/app.svg";
+import app from "@/components/assests/images/app.png";
 import Image from 'next/image';
 
 export default function App() {

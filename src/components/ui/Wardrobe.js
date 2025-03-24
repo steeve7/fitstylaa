@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdOutlineKeyboardArrowUp } from "react-icons/md";
-import iphone15 from "@/components/assests/images/iPhone15.svg";
+import iphone15 from "@/components/assests/images/iphone15.png";
 import spring from "@/components/assests/images/spring.svg";
 import fall from "@/components/assests/images/fall.svg";
 import summer from "@/components/assests/images/summer.svg";

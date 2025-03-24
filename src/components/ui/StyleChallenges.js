@@ -1,6 +1,6 @@
 import React from 'react'
-import collections from "@/components/assests/images/collections.svg";
-import iphone14 from "@/components/assests/images/iphone14.svg";
+import collections from "@/components/assests/images/collections.png";
+import iphone14 from "@/components/assests/images/iphone14.png";
 import Image from 'next/image';
 
 export default function StyleChallenges() {
