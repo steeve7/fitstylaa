@@ -1,0 +1,258 @@
+@import "tailwindcss";
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #ffffff;
+}
+
+:root{
+  --font-Euclid: "Euclid Circular A";
+  --font-Poppins: "Poppins";
+}
+
+.font-Euclid{
+  font-family: var(--font-Euclid);
+}
+.font-Poppins{
+  font-family: var(--font-Poppins);
+}
+
+:root{
+  --custom-green: rgba(100, 108, 82, 1);
+  --dark-green: rgba(110, 119, 90, 1);
+  --custom-red: rgba(204, 85, 0, 1);
+  --custom-gray: rgba(150, 150, 150, 1);
+  --custom-border: rgba(246, 243, 240, 1);
+  --custom-brown: rgba(48, 48, 48, 1);
+}
+
+.custom-brown{
+  color: var(--custom-brown)
+}
+
+.custom-border{
+  border: 0.5px solid var(--custom-border)
+}
+
+.custom-gray{
+  color: var(--custom-gray);
+}
+
+.custom-green{
+  background-color: var(--custom-green);
+  
+}
+.custom-green-border{
+ border: 1px solid var(--custom-green); 
+}
+.dark-green{
+  background-color: var(--dark-green);
+}
+
+.custom-red-bg{
+  background-color: var(--custom-red);
+  
+}
+
+.custom-red-border{
+  border: 1px solid var(--custom-red);
+}
+
+.custom-red-color{
+  color: var(--custom-red);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  width: 100%;
+  /* background: var(--background); */
+  /* color: var(--foreground); */
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+@keyframes bounceSlow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.animate-bounce-slow {
+  animation: bounceSlow 3s ease-in-out infinite;
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url('/fonts/Euclid-Circular-A-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url('/fonts/Euclid-Circular-A-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Italic */
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url('/fonts/Euclid-Circular-A-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Light */
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url('/fonts/Euclid-Circular-A-Light.ttf') format('truetype');
+  font-weight: 300; /* Light weight */
+  font-style: normal;
+}
+
+/* Light Italic */
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url('/fonts/Euclid-Circular-A-Light-Italic.ttf') format('truetype');
+  font-weight: 300; /* Light weight */
+  font-style: italic;
+}
+
+/* Medium */
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url('/fonts/Euclid-Circular-A-Medium.ttf') format('truetype');
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url('/fonts/Euclid-Circular-A-Medium-Italic.ttf') format('truetype');
+  font-weight: 500; /* Medium weight */
+  font-style: italic;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url('/fonts/Euclid-Circular-A-SemiBold.ttf') format('truetype');
+  font-weight: 600; /* SemiBold weight */
+  font-style: normal;
+}
+
+/* SemiBold Italic */
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url('/fonts/Euclid-Circular-A-SemiBold-Italic.ttf') format('truetype');
+  font-weight: 600; /* SemiBold weight */
+  font-style: italic;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url('/fonts/Euclid-Circular-A-Bold-Italic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+
+
+@font-face {
+  font-family: "Poppins";
+  src: url('/fontsb/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Poppins";
+  src: url('/fontsb/Poppins-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Italic */
+@font-face {
+  font-family: "Poppins";
+  src: url('/fontsb/Poppins-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Light */
+@font-face {
+  font-family: "Poppins";
+  src: url('/fontsb/Poppins-Light.ttf') format('truetype');
+  font-weight: 300; /* Light weight */
+  font-style: normal;
+}
+
+/* Light Italic */
+@font-face {
+  font-family: "Poppins";
+  src: url('/fontsb/Poppins-LightItalic.ttf') format('truetype');
+  font-weight: 300; /* Light weight */
+  font-style: italic;
+}
+
+/* Medium */
+@font-face {
+  font-family: "Poppins";
+  src: url('/fontsb/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url('/fontsb/Poppins-MediumItalic.ttf') format('truetype');
+  font-weight: 500; /* Medium weight */
+  font-style: italic;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Poppins";
+  src: url('/fontsb/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600; /* SemiBold weight */
+  font-style: normal;
+}
+
+/* SemiBold Italic */
+@font-face {
+  font-family: "Poppins";
+  src: url('/fontsb/Poppins-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600; /* SemiBold weight */
+  font-style: italic;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: "Poppins";
+  src: url('/fontsb/Poppins-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+
