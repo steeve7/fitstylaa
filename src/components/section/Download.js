@@ -23,7 +23,7 @@ export default function Download() {
           <Image
             src={largeScreen}
             alt="bg_image"
-            className="lg:w-[1200px] xl:w-full lg:h-[504px] md:h-[400px] 2xl:h-[700px]"
+            className="lg:w-[1200px] xl:w-full lg:h-[560px] xl:h-[504px] md:h-[400px] 2xl:h-[700px]"
           />
         </div>
         {/* Small screens */}
@@ -43,11 +43,11 @@ export default function Download() {
             that fit every occasion and vibe.
           </p>
         </div>
-        <div className="flex-shrink-0 xl:mt-[65px] lg:mt-[38px] 2xl:mt-[115px] md:mt-0 mt-[5px] image dobby">
+        <div className="flex-shrink-0 xl:mt-[65px] lg:mt-[38px] 2xl:mt-[115px] md:mt-0 mt-[5px]">
           <Image
             src={smart}
             alt="grocery_image"
-            className="w-full max-w-[280px] md:max-w-[300px] xl:max-w-[512px] 2xl:max-w-[700px] lg:max-w-[445px] object-cover"
+            className="w-full max-w-[280px] md:max-w-[300px] xl:max-w-[512px] 2xl:max-w-[700px] lg:max-w-[455px] object-cover"
           />
         </div>
       </div>

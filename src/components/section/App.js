@@ -26,7 +26,7 @@ export default function App() {
         <Image
           src={app}
           alt="app_image"
-          className=" md:w-[400px] w-[300px] lg:w-[510px]"
+          className=" md:w-[400px] w-[300px] lg:w-[510px] md:-mb-10"
         />
         <Button />
       </div>
