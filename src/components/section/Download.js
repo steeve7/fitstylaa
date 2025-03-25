@@ -33,7 +33,7 @@ export default function Download() {
       </div>
       {/* Main content container */}
       <div className="relative flex flex-col md:flex-row 2xl:px-20 items-center justify-center mt-10 md:w-1/2 lg:w-3/4 w-full gap-6">
-        <div className="flex-1 lg:w-1/2 w-full 2xl:px-20 xl:px-3 md:px-2 px-[55px] lg:-mt-32 md:-mt-40 image">
+        <div className="flex-1 lg:w-1/2 w-full 2xl:px-20 xl:px-3 md:px-2 px-[55px] lg:-mt-32 md:-mt-40">
           <h2 className="font-Euclid font-medium text-[24px] md:text-[40px] lg:text-[60px] 2xl:text-[80px] leading-[32px] md:leading-[60px] lg:leading-[72px] 2xl:leading-[80px] md:w-[300px] lg:w-[490px] 2xl:w-[600px] w-full text-white">
             Smart styling with AI
           </h2>
@@ -43,7 +43,7 @@ export default function Download() {
             that fit every occasion and vibe.
           </p>
         </div>
-        <div className="flex-shrink-0 xl:mt-[65px] lg:mt-[38px] 2xl:mt-[115px] md:mt-0 mt-[5px]">
+        <div className="flex-shrink-0 xl:mt-[65px] lg:mt-[38px] 2xl:mt-[115px] md:mt-0 mt-[5px] image dobby">
           <Image
             src={smart}
             alt="grocery_image"

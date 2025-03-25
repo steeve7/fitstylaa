@@ -272,9 +272,14 @@ body {
   }
 } */
 
-@media (max-width: 375px){
+@media (max-width: 808px){
   .image{
-    padding-inline: 45px
+    margin-top: 1px
+  }
+}
+@media (max-width: 768px){
+  .dobby{
+    max-width: 289.5px
   }
 }
 
