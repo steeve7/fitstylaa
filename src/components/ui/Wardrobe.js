@@ -10,7 +10,7 @@ import Image from 'next/image';
 export default function Wardrobe() {
   return (
     <div className="flex md:flex-row flex-col justify-between items-center w-full gap-20 md:gap-14 lg:gap-48">
-      <div className="flex flex-col justify-start items-start md:w-1/2 w-full md:gap-[44px] gap-[35px]">
+      <div className="flex flex-col justify-start items-start md:w-1/2 w-full md:gap-[38px] gap-[35px]">
         <h2 className="font-Euclid font-medium md:text-[35px] -mb-7 text-[#101010] lg:text-[48px] text-[24px] w-full md:leading-[56px] leading-[32px] md:w-[544px]">
           Wardrobe Management
         </h2>

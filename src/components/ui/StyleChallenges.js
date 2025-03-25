@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function StyleChallenges() {
   return (
     <div className="flex md:flex-row flex-col justify-between items-center lg:gap-48 gap-14 w-full">
-      <div className="flex flex-col justify-start items-start md:w-1/2 w-full md:gap-[44px] gap-[35px]">
+      <div className="flex flex-col justify-start items-start md:w-1/2 w-full md:gap-[38px] gap-[35px]">
         <h2 className="font-Euclid font-medium text-[24px] text-[#101010] md:text-[35px] -mb-7 lg:text-[48px] leading-[32px] md:leading-[56px] md:w-[544px] w-full">
           Style Challenges
         </h2>

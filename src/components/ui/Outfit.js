@@ -8,8 +8,8 @@ import Image from 'next/image';
 
 export default function Outfit() {
   return (
-    <div className="w-full flex md:flex-row flex-col justify-between items-center gap-20 lg:gap-60 py-[96px]">
-      <div className="flex flex-col justify-start items-start md:order-2 order-1 md:w-1/2 w-full md:gap-[44px] gap-[35px]">
+    <div className="w-full flex md:flex-row flex-col justify-between items-center gap-20 lg:gap-60 md:py-[96px] py-[64px]">
+      <div className="flex flex-col justify-start items-start md:order-2 order-1 md:w-1/2 w-full md:gap-[38px] gap-[35px]">
         <h2 className="font-Euclid text-[#101010] -mb-7 font-medium md:text-[35px] lg:text-[48px] text-[24px] md:leading-[56px] leading-[32px] md:w-[544px] w-full">
           Outfit Planning
         </h2>
