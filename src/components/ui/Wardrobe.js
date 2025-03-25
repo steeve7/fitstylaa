@@ -14,7 +14,7 @@ export default function Wardrobe() {
         <h2 className="font-Euclid font-medium md:text-[35px] -mb-7 text-[#101010] lg:text-[48px] text-[24px] w-full md:leading-[56px] leading-[32px] md:w-[544px]">
           Wardrobe Management
         </h2>
-        <p className="font-Poppins font-medium text-[16px] md:text-[14px] lg:text-[18px] md:w-[330px] lg:w-[544px] w-full md:leading-[28px] leading-[24px] text-[#303030]">
+        <p className="font-Poppins font-normal text-[16px] md:text-[14px] lg:text-[18px] md:w-[330px] lg:w-[544px] w-full md:leading-[28px] leading-[24px] text-[#303030]">
           Digitally organize your closet, so you never forget what you own. Add
           new items, categorize them, and access your wardrobe anytime,
           anywhere.
@@ -25,7 +25,7 @@ export default function Wardrobe() {
               <p className="font-Poppins font-medium md:text-[9px] lg:text-[11px] text-[6px]">
                 Condition
               </p>
-              <p className="font-Poppins font-medium md:text-[9px] lg:text-[11px] text-[6px] custom-red-color flex flex-row items-center gap-1">
+              <p className="font-Poppins font-medium md:text-[9px] lg:text-[11px] text-[6px] text-[#cc5500] flex flex-row items-center gap-1">
                 New
                 <MdOutlineKeyboardArrowUp className="md:text-[15px] lg:text-[20px] text-[10px]" />
               </p>
@@ -50,7 +50,7 @@ export default function Wardrobe() {
               <p className="font-Poppins font-medium md:text-[9px] lg:text-[11px] text-[7px]">
                 Season
               </p>
-              <p className="font-Poppins font-medium md:text-[9px] lg:text-[11px] text-[6px] custom-red-color flex flex-row items-center gap-2">
+              <p className="font-Poppins font-medium md:text-[9px] lg:text-[11px] text-[6px] text-[#cc5500] flex flex-row items-center gap-2">
                 Summer, Fall
               </p>
             </div>

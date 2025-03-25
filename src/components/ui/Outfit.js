@@ -13,7 +13,7 @@ export default function Outfit() {
         <h2 className="font-Euclid text-[#101010] -mb-7 font-medium md:text-[35px] lg:text-[48px] text-[24px] md:leading-[56px] leading-[32px] md:w-[544px] w-full">
           Outfit Planning
         </h2>
-        <p className="font-Poppins font-medium md:text-[14px] lg:text-[18px] text-[#303030] text-[16px] md:leading-[28px] leading-[24px] md:w-[300px] lg:w-[544px] w-full">
+        <p className="font-Poppins font-normal md:text-[14px] lg:text-[18px] text-[#303030] text-[16px] md:leading-[28px] leading-[24px] md:w-[300px] lg:w-[544px] w-full">
           Stay stylish without stress. Plan and schedule your outfits in advance
           with Fitstyla, so you always know what to wear and save time getting
           dressed.

@@ -10,7 +10,7 @@ export default function StyleChallenges() {
         <h2 className="font-Euclid font-medium text-[24px] text-[#101010] md:text-[35px] -mb-7 lg:text-[48px] leading-[32px] md:leading-[56px] md:w-[544px] w-full">
           Style Challenges
         </h2>
-        <p className="font-Poppins font-medium text-[#303030] text-[16px] md:text-[14px] lg:text-[18px] leading-[24px] md:leading-[28px] md:w-[300px] lg:w-[544px] w-full">
+        <p className="font-Poppins font-normal text-[#303030] text-[16px] md:text-[14px] lg:text-[18px] leading-[24px] md:leading-[28px] md:w-[300px] lg:w-[544px] w-full">
           Try fun and engaging style challenges to refine your personal style.
           Experiment with new looks, step out of your comfort zone, and get
           creative with confidence.
