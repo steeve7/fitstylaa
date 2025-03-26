@@ -272,7 +272,7 @@ body {
   }
 } */
 
-@media (max-width: 808px){
+@media (max-width: 1024px){
   .image{
     margin-top: 1px
   }
