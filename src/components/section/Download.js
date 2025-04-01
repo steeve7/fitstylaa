@@ -51,7 +51,7 @@ export default function Download() {
           <Image
             src={smart}
             alt="grocery_image"
-            className="w-full max-w-[280px] md:max-w-[300px] xl:max-w-[512px] 2xl:max-w-[700px] lg:max-w-[445px] object-cover"
+            className="w-full max-w-[280px] md:max-w-[300px] xl:max-w-[512px] image dobby 2xl:max-w-[700px] lg:max-w-[445px] object-cover"
           />
         </div>
       </div>

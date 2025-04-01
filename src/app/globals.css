@@ -272,14 +272,21 @@ body {
   }
 } */
 
-@media (max-width: 1024px){
+@media (max-width: 1200px){
   .image{
-    margin-top: 1px
+    max-width: 546px
   }
 }
-@media (max-width: 768px){
+
+
+@media (max-width: 1277px){
   .dobby{
-    max-width: 289.5px
+    max-width: 546px
+  }
+}
+@media (max-width: 1024px){
+  .doy{
+    max-width: 445px
   }
 }
 
