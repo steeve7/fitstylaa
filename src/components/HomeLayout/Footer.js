@@ -18,8 +18,8 @@ export default function Footer() {
           </p>
         </div>
         <div className="flex flex-col gap-[20px] w-full">
-          <div className="flex flex-row gap-2 items-center md:text-start text-center">
-            <MdLocationPin className="text-white text-[30px]" />
+          <div className="flex flex-row gap-2 items-center md:justify-start justify-center md:text-start text-center">
+            <MdLocationPin className="text-white text-[30px] md:flex hidden" />
             <a
               href="https://www.google.com/maps?q=1111B+S+Governors+Ave+STE+26792+Dover,+DE+19904"
               target="_blank"
@@ -30,8 +30,8 @@ export default function Footer() {
             </a>
           </div>
 
-          <div className="flex flex-row gap-2 items-center md:text-start text-center">
-            <MdOutlinePhoneCallback className="text-white text-[20px]" />
+          <div className="flex flex-row gap-2 items-center md:justify-start justify-center md:text-start text-center">
+            <MdOutlinePhoneCallback className="text-white text-[20px] md:flex hidden" />
             <a
               href="tel:+13466667905"
               className="font-normal font-Poppins text-white hover:underline md:text-[16px] leading-[24px]"
